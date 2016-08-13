@@ -1,4 +1,3 @@
-import numpy as np
 from google import search
 
 #b contains list of all columns and rows

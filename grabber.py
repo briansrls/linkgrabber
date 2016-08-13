@@ -7,7 +7,7 @@ b = np.genfromtxt(r'Jobs.csv', delimiter=',', names=True, dtype=None)
 l = []
 
 for query in b['JOBS']:
-	for url in search(str(query)+' Careers Job Apply', tld='com.pk', lang='en', stop=1):
+	for url in search(str(query)+' Careers Job Apply', tld='com', lang='en', stop=1):
 		l.append(url)
 		break;
 

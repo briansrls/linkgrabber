@@ -8,6 +8,7 @@ l = []
 for query in b['JOBS']:
 	for url in search(str(query)+' Careers Job Apply', tld='com', lang='en', stop=1):
 		l.append(url)
+		print url
 		break;
 
 csv = 'Jobs,Link'+"\n"
